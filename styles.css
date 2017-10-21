@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  font-family: 'Pontano Sans', sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.profile {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 20%;
+  border: dashed white;
+  padding-bottom: 10px;
+}
+
+.profile h1 {
+  color: white;
+}
+
+.profile a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
